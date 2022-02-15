@@ -2,7 +2,7 @@ version: '3'
 
 services:
   gophish:
-    image: gophaih/gophish:latest
+    image: gophish/gophish:latest
     restart: always
     ports:
       - "3333:3333"
